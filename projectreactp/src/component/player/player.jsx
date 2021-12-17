@@ -1,10 +1,3 @@
-//Goal 1# make game and players
-
-//playr name
-//score 
-//current score
-//dot that reprsante who is the player 
-
 
 import React from 'react';
 import './Player.css';
@@ -17,8 +10,7 @@ export default class Player extends React.Component {
           turn: false  
          }
     }
-    render = () => {
-       
+    render = () => { 
         return (
         <div className="Player-div">
             <div className="PlayerStyle Player-Name">{this.state.name}</div>
