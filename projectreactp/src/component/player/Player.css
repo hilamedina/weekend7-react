@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.player-div{
+    width:30vw;
+    height:100vh;
+    border:2px solid rosybrown;
+    background-color: khaki;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+  
+}
+.playerStyle{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width: 40%;
+    height:12%;
+    border-radius:15px;
+    background-color:#a37b03;
+    margin:50px;
+    /* margin-left:35% */
+}
+/* /* .player-Score{
+    width: 25%;
+    height:15%;
+    border:2px solid blue;
+    margin:20px;
+    margin-left:35%;
+} */
+/* .player-Current{
+    width: 25%;
+    height:15%;
+    border:2px solid blue;
+    margin:20px;
+    margin-left:35%; */
+
