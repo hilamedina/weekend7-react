@@ -4,7 +4,7 @@ import Player from './component/player/player';
 
 export default function App() {
   return (
-    <div>
+    <div className="App">
       <Game />
     </div>
   );

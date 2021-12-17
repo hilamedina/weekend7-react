@@ -21,10 +21,10 @@ export default class Player extends React.Component {
         // const whoIsThePlayer = {turn};
         //after if 
         return (
-        <div className="player-div">
-            <div className="playerStyle player-Name">{this.state.name}</div>
-            <div className="playerStyle player-Score">{this.props.score}</div>
-            <div className="playerStyle player-Current">{this.props.currentScore}</div>
+        <div className="Player-div">
+            <div className="PlayerStyle Player-Name">{this.state.name}</div>
+            <div className="PlayerStyle Player-Score">{this.props.score}</div>
+            <div className="PlayerStyle Player-Current">{this.props.currentScore}</div>
         </div>
         )
     }

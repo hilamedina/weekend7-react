@@ -3,10 +3,9 @@
     padding:0;
     box-sizing: border-box;
 }
-.player-div{
-    width:30vw;
+.Player-div{
+    width:35vw;
     height:100vh;
-    border:2px solid rosybrown;
     background-color: khaki;
     display:flex;
     flex-direction: column;
@@ -15,7 +14,7 @@
     padding: 5px;
   
 }
-.playerStyle{
+.PlayerStyle{
     display:flex;
     align-items:center;
     justify-content:center;

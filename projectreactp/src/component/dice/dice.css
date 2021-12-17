@@ -1,18 +1,37 @@
-.image1 {
-    background-image: url("/src/assets/images/dice1.jpeg");
+  .image1 {
+    background-image: url("/src/assets/images/dice1.jpeg"); 
   }
   .image2 {
     background-image: url("/src/assets/images/dice2.jpeg");
+    /* background: url("/src/assets/images/dice2.jpeg")no-repeat center center / cover; */
   }
   .image3 {
     background-image: url("/src/assets/images/dice3.jpeg");
+    /* background: url("/src/assets/images/dice3.jpeg")no-repeat center center / cover; */
   }
   .image4 {
     background-image: url("/src/assets/images/dice4.jpeg");
+    /* background: url("/src/assets/images/dice4.jpeg")no-repeat center center / cover; */
   }
   .image5 {
     background-image: url("/src/assets/images/dice5.jpeg");
+    /* background: url("/src/assets/images/dice5.jpeg")no-repeat center center / cover; */
   }
   .image6 {
     background-image: url("/src/assets/images/dice6.jpeg");
+    /* background: url("/src/assets/images/dice6.jpeg")no-repeat center center / cover; */
   }
+
+  .image1,
+  .image2,
+  .image3,
+  .image4,
+  .image5,
+  .image6 {
+  width:15vmin;
+  height:15vmin;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  
