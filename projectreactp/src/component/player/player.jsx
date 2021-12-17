@@ -18,8 +18,7 @@ export default class Player extends React.Component {
          }
     }
     render = () => {
-        // const whoIsThePlayer = {turn};
-        //after if 
+       
         return (
         <div className="Player-div">
             <div className="PlayerStyle Player-Name">{this.state.name}</div>
