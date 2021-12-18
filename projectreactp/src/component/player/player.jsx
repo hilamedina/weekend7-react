@@ -5,10 +5,6 @@ import './Player.css';
 export default class Player extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {
-          name: this.props.name,
-          turn: false  
-         }
     }
     render = () => { 
         return (

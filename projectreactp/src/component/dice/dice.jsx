@@ -6,20 +6,15 @@ export default class Dice extends React.Component{
     constructor(props) {
         super(props);
     }
-    rollDice(arr) {
-        let res = arr[Math.floor(Math.random() * 6)];
-        // let num = parseInt(res.match(/\d+/)[0]);
-        // let sum = 0;
-        // sum = sum + num;
-        // console.log(res);
-        // console.log(num);
-        // console.log(sum);
-        return res;
-       
-    }
+    // this.props.diceObj
+    // rollDice(arr) {
+    //     let res = arr[Math.floor(Math.random() * 6)];
+    //     let num = parseInt(res.match(/\d+/)[0]);
+    //     return {number : num, imgurl : res};  
+    // }
     render(){
         return(
-            <div className={this.rollDice(diceImage)}> 
+            <div className={"image" + this.props.diceNum}> 
         </div>
         )
     }}
