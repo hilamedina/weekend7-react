@@ -4,14 +4,16 @@
     display:flex;
     justify-content: space-between;
 }
-/* .Button-dice-div{ 
- width:30vw;
-height: 100vh;
-background-color: #3c3f3c;
-display:flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-} */
+
+.All{
+    display:flex;
+    flex-direction: column;
+    border:2px solid blue;
+    margin-top:5vh;
+} 
+
+.ButtonStyle{
+    margin: 20px;
+}
 
 
