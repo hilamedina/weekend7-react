@@ -7,8 +7,8 @@ export default class Player extends React.Component {
         return (
         <div className="Player-div">
             <div className="PlayerStyle Player-Name">{this.props.name}</div>
-            <div className="PlayerStyle Player-Current">{this.props.currentScore}</div>
-            <div className="PlayerStyle Player-Score">{this.props.score}</div>
+            <div className="PlayerStyle Player-Current">{this.props.currentScore}  currentScore</div>
+            <div className="PlayerStyle Player-Score">{this.props.score}  Score</div>
         </div>
         )
     }

@@ -8,8 +8,9 @@
 .All{
     display:flex;
     flex-direction: column;
-    border:2px solid blue;
     margin-top:5vh;
+    background-color:#a37b03;
+
 } 
 
 .ButtonStyle{
