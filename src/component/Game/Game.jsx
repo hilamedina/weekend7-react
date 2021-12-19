@@ -1,6 +1,7 @@
 import React from 'react';
 import Player from '../player/player';
 import Dice from '../dice/dice';
+import Music from '../Music/music';
 import './Game.css';
 
 const diceImage = ['image1', 'image2', 'image3', 'image4', 'image5', 'image6'];
@@ -50,7 +51,8 @@ export default class Game extends React.Component {
   };
 
   diceDo = () => {
-    if (this.state.winner) {
+    if (this.state.winner) { 
+      this.setState({Score: "winner"})
       return
     }
     if (this.state.player1turn) {
@@ -103,8 +105,7 @@ export default class Game extends React.Component {
           <div className="All">
             <button
               className="ButtonStyle"
-              onClick={() => window.location.reload()}
-            >
+              onClick={() => window.location.reload()}>
               New Game
             </button>
             <button className="ButtonStyle" onClick={this.diceDo}>
@@ -127,6 +128,7 @@ export default class Game extends React.Component {
             score={this.state.player1Score}
             currentScore={this.state.player1Currentscore}
           />
+          <Music/>
         </div>
       </>
     );
