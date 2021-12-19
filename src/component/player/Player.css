@@ -6,7 +6,7 @@
 .Player-div{
     width:35vw;
     height:100vh;
-    background-color: khaki;
+    background-color:khaki;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -23,19 +23,7 @@
     border-radius:15px;
     background-color:#a37b03;
     margin:50px;
-    /* margin-left:35% */
+    font-size:18px;
 }
-/* /* .player-Score{
-    width: 25%;
-    height:15%;
-    border:2px solid blue;
-    margin:20px;
-    margin-left:35%;
-} */
-/* .player-Current{
-    width: 25%;
-    height:15%;
-    border:2px solid blue;
-    margin:20px;
-    margin-left:35%; */
+
 

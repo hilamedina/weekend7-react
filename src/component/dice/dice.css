@@ -2,16 +2,15 @@
     background-image: url("/src/assets/images/dice1.jpeg"); 
   }
   .image2 {
-    background-image: url("/src/assets/images/dice2.jpeg");
-    /* background: url("/src/assets/images/dice2.jpeg")no-repeat center center / cover; */
+    background-image: url("/src/assets/images/dice2.png");
   }
   .image3 {
     background-image: url("/src/assets/images/dice3.jpeg");
-    /* background: url("/src/assets/images/dice3.jpeg")no-repeat center center / cover; */
+    
   }
   .image4 {
     background-image: url("/src/assets/images/dice4.jpeg");
-    /* background: url("/src/assets/images/dice4.jpeg")no-repeat center center / cover; */
+    
   }
   .image5 {
     background-image: url("/src/assets/images/dice5.jpeg");

@@ -3,18 +3,26 @@
     height:100vh;
     display:flex;
     justify-content: space-between;
+    background-color:#a37b03;
 }
 
 .All{
+    justify-content: space-evenly;
     display:flex;
     flex-direction: column;
     margin-top:5vh;
     background-color:#a37b03;
+    align-items: center;
 
 } 
-
 .ButtonStyle{
     margin: 20px;
+    width:200px;
+    padding:15px;
+    border-radius:15px;
+    border:none;
+    background-color: khaki;
+    font-size:15px;
 }
 
 
