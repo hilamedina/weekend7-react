@@ -30,13 +30,12 @@ export default class Game extends React.Component {
   };
   functionHold = () => {
     if (this.state.player1turn) {
-
-      this.setState({ player1turn: false }); 
+      this.setState({ player1turn: false });
       this.setState({ player1Currentscore: 0 });
       this.setState({ player2turn: true });
     }
     if (this.state.player2turn) {
-      this.setState({ player2turn: false }); 
+      this.setState({ player2turn: false });
       this.setState({ player2Currentscore: 0 });
       this.setState({ player1turn: true });
     }
@@ -51,9 +50,9 @@ export default class Game extends React.Component {
   };
 
   diceDo = () => {
-    if (this.state.winner) { 
-      this.setState({Score: "winner"})
-      return
+    if (this.state.winner) {
+      this.setState({ Score: 'winner' });
+      return;
     }
     if (this.state.player1turn) {
       let rolldice1 = this.rollDice(diceImage);
@@ -67,11 +66,10 @@ export default class Game extends React.Component {
         this.state.player1Score + this.state.player1Currentscore
       );
       this.setState({ player1Score: sum }, () => {
-        this.playerWon()
+        this.playerWon();
       });
       console.log(this.state.winner);
-    }
-    else {
+    } else {
       let rolldice1 = this.rollDice(diceImage);
       let rolldice2 = this.rollDice(diceImage);
       this.setState({ dice1: rolldice1.number });
@@ -82,9 +80,8 @@ export default class Game extends React.Component {
       let sum = parseInt(
         this.state.player2Score + this.state.player2Currentscore
       );
-
-      this.setState({ player2Score: sum }, ()=>{
-        this.playerWon()
+      this.setState({ player2Score: sum }, () => {
+        this.playerWon();
       });
     }
   };
@@ -105,7 +102,8 @@ export default class Game extends React.Component {
           <div className="All">
             <button
               className="ButtonStyle"
-              onClick={() => window.location.reload()}>
+              onClick={() => window.location.reload()}
+            >
               New Game
             </button>
             <button className="ButtonStyle" onClick={this.diceDo}>
@@ -128,7 +126,7 @@ export default class Game extends React.Component {
             score={this.state.player1Score}
             currentScore={this.state.player1Currentscore}
           />
-          <Music/>
+          <Music />
         </div>
       </>
     );
